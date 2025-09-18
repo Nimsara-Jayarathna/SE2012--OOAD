@@ -1,0 +1,28 @@
+# Node (frontend)
+frontend/node_modules/
+frontend/dist/
+*.log
+
+# Root node_modules (if ever created)
+node_modules/
+
+# Editor / OS files
+.DS_Store
+.vscode/
+.idea/
+
+# Env files
+.env
+*.env
+
+# Backend (Spring Boot / Java)
+backend/target/
+backend/.mvn/
+backend/.idea/
+*.iml
+
+# Build artifacts
+*.class
+*.jar
+*.war
+*.ear
